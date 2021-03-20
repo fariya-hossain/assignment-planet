@@ -1,0 +1,1567 @@
+@media (min-width:320px) and (max-width:575px) {
+
+
+
+
+    #header-part {
+        display: none;
+    }
+
+    .menu {
+        padding-top: 10px;
+        background: #fff;
+    }
+
+    .menu .navbar-brand {
+
+        width: 193px;
+    }
+
+    .menu .navbar-brand img {
+        filter: none;
+    }
+
+
+    .menu button span {
+        height: auto;
+    }
+
+    .menu button span i {
+        color: rgb(46, 163, 242);
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+
+    .menu nav ul li a {
+        color: #000;
+        z-index: 999;
+        transition: .4s;
+
+
+    }
+
+
+    .menu nav ul li {
+
+        transition: .4s;
+        padding-left: 20px;
+
+    }
+
+
+
+    .menu nav ul li:hover {
+        background: #F9F9F9;
+        color: #444;
+
+    }
+
+    .menu nav ul li:hover a {
+        color: #444;
+
+    }
+
+    .menu nav ul li ul {
+        background: #fff;
+        z-index: 9999;
+
+
+
+    }
+
+
+    #banner-part {
+        padding-left: 10px
+    }
+
+    #banner-part .left h2 {
+        font-size: 20px;
+        width: auto;
+    }
+
+
+    #banner-part .left p {
+        width: auto;
+    }
+
+    #banner-part .left a {
+        margin-bottom: 18px;
+    }
+
+
+    #banner-part .left ul {
+        margin-top: 20px;
+    }
+
+    #banner-part .img {
+        display: none;
+    }
+
+    #feature-part .rr {
+        background: #B0262D;
+
+
+    }
+
+    #feature-part .rd {
+        background: #B0262D;
+        height: 100px;
+
+    }
+
+    .tittlered {
+        margin-top: 54px;
+    }
+
+    .tittlered h3 {
+        font-size: 37px;
+    }
+
+    .tittlered p {
+        width: auto;
+    }
+
+
+
+
+
+    #Assignment-part .box {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    #Assignment-part .box p {
+
+        width: auto;
+    }
+
+    #offer-part .wtt {
+        margin-top: 0;
+    }
+
+
+    .tittlewhite p {
+
+        width: auto;
+    }
+
+    #expert-part {
+        background: none;
+    }
+
+
+
+
+    #expert-part ul li {
+        margin-top: 10px;
+    }
+
+
+
+    #stat-part .stat p {
+        width: 300px;
+    }
+
+
+
+    #stat-part .stat img {
+        margin-top: 42px;
+    }
+
+    #help-part .img img {
+        display: none;
+    }
+
+    #help-part {
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+
+
+    #payment-part .right {
+        background: none;
+    }
+
+    #payment-part .left {
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    #payment-part .left .one {
+        position: relative;
+    }
+
+    #payment-part .left .one img {
+        position: absolute;
+        top: 59px;
+        left: -36px;
+        width: 11%;
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+    #payment-part .left p {
+        margin-left: 9px;
+        width: 244px;
+    }
+
+
+    #payment-part .left .details {
+        margin-left: 0;
+
+        padding-right: 0;
+    }
+
+    #payment-part .left .img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #payment-part .left .two a {
+        padding: 10px 14px;
+    }
+
+
+
+    #choose-part .box .one {
+        padding: 0;
+        padding-bottom: 20px;
+        margin: 10px 0;
+        border-right: none;
+        border-bottom: 3px solid #CF232C;
+    }
+
+    #choose-part .box .lst {
+        border-bottom: none;
+    }
+
+    #choose-part .box .one p {
+        width: 300px;
+    }
+
+
+    #getin .black .touch h3 {
+        padding: 8px 56px;
+        font-size: 24px;
+        margin-top: 52px;
+
+    }
+
+    #getin::after {
+
+        top: 349px;
+    }
+
+
+
+    .red .one p {
+        margin-bottom: 81px;
+    }
+
+    #price-part .price .one h3 {
+        font-size: 24px;
+        padding: 13px 30px;
+
+    }
+
+    #price-part .price .one {
+        margin: 0 20px;
+        margin-bottom: 70px;
+    }
+
+    #price-part .price .one .button a {
+        font-size: 17px;
+        padding: 7px 14px;
+    }
+
+    #price-part {
+        margin-bottom: 40px;
+    }
+
+
+
+    #order-part .order form .one {
+        margin: 0 20px;
+        margin-bottom: 20px;
+    }
+
+    #Placement-part .img {
+        display: none;
+    }
+
+
+
+    #Placement-part ul li h3 {
+        width: auto;
+    }
+
+
+    #Placement-part ul li p {
+        width: auto;
+    }
+
+    #Perfect-part .line {
+        display: none;
+    }
+
+
+    #Perfect-part .perfect {
+        margin: 0 30px;
+    }
+
+    #Perfect-part .perfect .bottom {
+        margin-top: 0;
+    }
+
+    #Perfect-part .perfect .one {
+        margin-top: 30px;
+    }
+
+
+    #Perfect-part .button {
+        margin-top: 57px;
+    }
+
+
+    #Blog-part .one {
+        margin-bottom: 30px;
+    }
+
+
+
+    #Blog-part .one h3 {
+        height: auto;
+    }
+
+    #Blog-part .one p {
+        width: auto;
+        margin-right: 20px;
+    }
+
+
+
+
+    #testimonial-part .testimonial p {
+        width: auto;
+
+
+    }
+
+    #footer-part {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #footer-part .first {
+        margin-bottom: 38px;
+
+    }
+
+    #footer-part .one {
+        padding-bottom: 25px;
+    }
+
+    #footer-part .two .email ul li {
+        margin-bottom: 20px;
+    }
+
+    #footer-part .two {
+        padding-bottom: 26px;
+    }
+
+
+
+#testimonial-part button span {
+display: none;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:576px) and (max-width:767px) {
+
+
+
+
+    #header-part {
+        display: none;
+    }
+
+    .menu {
+        padding-top: 10px;
+        background: #fff;
+    }
+
+    .menu .navbar-brand {
+
+        width: 193px;
+    }
+
+    .menu .navbar-brand img {
+        filter: none;
+    }
+
+
+    .menu button span {
+        height: auto;
+    }
+
+    .menu button span i {
+        color: rgb(46, 163, 242);
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+
+    .menu nav ul li a {
+        color: #000;
+        z-index: 999;
+        transition: .4s;
+
+
+    }
+
+
+    .menu nav ul li {
+
+        transition: .4s;
+        padding-left: 20px;
+
+    }
+
+
+
+    .menu nav ul li:hover {
+        background: #F9F9F9;
+        color: #444;
+
+    }
+
+    .menu nav ul li:hover a {
+        color: #444;
+
+    }
+
+    .menu nav ul li ul {
+        background: #fff;
+        z-index: 9999;
+
+
+
+    }
+
+
+    #banner-part {
+        padding-left: 10px
+    }
+
+    #banner-part .left h2 {
+    font-size: 21px;
+    width: 444px;
+    }
+
+
+    #banner-part .left p {
+        width: auto;
+    }
+
+    #banner-part .left a {
+        margin-bottom: 18px;
+    }
+
+
+    #banner-part .left ul {
+        margin-top: 20px;
+        margin-right: 70px;
+    }
+
+    #banner-part .img {
+        display: none;
+    }
+
+    #feature-part .rr {
+        background: #B0262D;
+
+
+    }
+
+    #feature-part .rd {
+        background: #B0262D;
+        height: 100px;
+
+    }
+
+    .tittlered {
+        margin-top: 54px;
+    }
+
+    .tittlered h3 {
+        font-size: 37px;
+    }
+
+    .tittlered p {
+        width: auto;
+    }
+
+
+
+
+
+    #Assignment-part .box {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    #Assignment-part .box p {
+
+        width: auto;
+    }
+
+    #offer-part .wtt {
+        margin-top: 0;
+    }
+
+
+    .tittlewhite p {
+
+        width: auto;
+    }
+
+    #expert-part {
+        background: none;
+    }
+
+
+
+
+    #expert-part ul li {
+        margin-top: 10px;
+    }
+
+
+
+    #stat-part .stat p {
+       width: 245px;
+    }
+
+
+
+    #stat-part .stat img {
+        margin-top: 42px;
+    }
+
+    #help-part .img img {
+        display: none;
+    }
+
+    #help-part {
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+
+
+    #payment-part .right {
+        background: none;
+    }
+
+    #payment-part .left {
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    #payment-part .left .one {
+        position: relative;
+    }
+#payment-part {
+padding-left: 20px;
+}
+#payment-part .left .one img {
+	position: absolute;
+	top: 37px;
+	left: -36px;
+	width: 10%;
+	margin-top: 0;
+	margin-right: 0;
+}
+    #payment-part .left p {
+margin-left: 20px;
+width: 377px;
+    }
+
+
+    #payment-part .left .details {
+        margin-left: 0;
+
+        padding-right: 0;
+    }
+
+    #payment-part .left .img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #payment-part .left .two a {
+        padding: 10px 14px;
+    }
+
+
+
+    #choose-part .box .one {
+        padding: 0;
+        padding-bottom: 20px;
+        margin: 10px 0;
+        border-right: none;
+        border-bottom: 3px solid #CF232C;
+    }
+
+    #choose-part .box .lst {
+        border-bottom: none;
+    }
+
+    #choose-part .box .one p {
+      width: 486px;
+    }
+
+
+    #getin .black .touch h3 {
+        padding: 17px 43px;
+    top: 58%;
+
+    }
+
+    #getin::after {
+
+      top: 254px;
+    }
+
+
+
+    .red .one p {
+        margin-bottom: 81px;
+    }
+
+    #price-part .price .one h3 {
+/*
+        font-size: 24px;
+        padding: 13px 30px;
+*/
+
+    }
+
+    #price-part .price .one {
+        margin: 0 20px;
+        margin-bottom: 70px;
+    }
+
+    #price-part .price .one .button a {
+/*
+        font-size: 17px;
+        padding: 7px 14px;
+*/
+    }
+
+    #price-part {
+        margin-bottom: 40px;
+    }
+
+
+#order-part .order form .one input {
+width: 100%;
+}
+    
+    #order-part .order form .one select {
+	width: 100%;
+}
+    #order-part .order form .one {
+        margin: 0 20px;
+        margin-bottom: 20px;
+    }
+
+    #testimonial-part .testimonial p {
+	height: 235px;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #Placement-part .img {
+        display: none;
+    }
+
+
+
+    #Placement-part ul li h3 {
+        width: auto;
+    }
+
+
+    #Placement-part ul li p {
+        width: auto;
+    }
+
+    #Perfect-part .line {
+        display: none;
+    }
+
+
+    #Perfect-part .perfect {
+        margin: 0 30px;
+    }
+
+    #Perfect-part .perfect .bottom {
+        margin-top: 0;
+    }
+
+    #Perfect-part .perfect .one {
+        margin-top: 30px;
+    }
+
+
+    #Perfect-part .button {
+        margin-top: 57px;
+    }
+
+
+    #Blog-part .one {
+        margin-bottom: 30px;
+    }
+
+
+
+    #Blog-part .one h3 {
+        height: auto;
+    }
+
+    #Blog-part .one p {
+        width: auto;
+        margin-right: 20px;
+    }
+
+
+
+
+    #testimonial-part .testimonial p {
+        width: auto;
+
+
+    }
+
+    #footer-part {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #footer-part .first {
+        margin-bottom: 38px;
+
+    }
+
+    #footer-part .one {
+        padding-bottom: 25px;
+    }
+
+    #footer-part .two .email ul li {
+        margin-bottom: 20px;
+    }
+
+    #footer-part .two {
+        padding-bottom: 26px;
+    }
+
+
+
+#testimonial-part button span {
+display: none;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768px) and (max-width:991px) {
+
+
+
+
+    #header-part {
+        display: none;
+    }
+
+    .menu {
+        padding-top: 10px;
+        background: #fff;
+    }
+
+    .menu .navbar-brand {
+
+        width: 193px;
+    }
+
+    .menu .navbar-brand img {
+        filter: none;
+    }
+
+
+    .menu button span {
+        height: auto;
+    }
+
+    .menu button span i {
+        color: rgb(46, 163, 242);
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+
+    .menu nav ul li a {
+        color: #000;
+        z-index: 999;
+        transition: .4s;
+
+
+    }
+
+
+    .menu nav ul li {
+
+        transition: .4s;
+        padding-left: 20px;
+
+    }
+
+
+
+    .menu nav ul li:hover {
+        background: #F9F9F9;
+        color: #444;
+
+    }
+
+    .menu nav ul li:hover a {
+        color: #444;
+
+    }
+
+    .menu nav ul li ul {
+        background: #fff;
+        z-index: 9999;
+
+
+
+    }
+
+
+    #banner-part {
+        padding-left: 10px;
+    }
+
+    #banner-part .left h2 {
+font-size: 24px;
+        width: auto;
+    }
+
+
+    #banner-part .left p {
+        width: auto;
+    }
+
+    #banner-part .left a {
+        margin-bottom: 18px;
+    }
+
+
+    #banner-part .left ul {
+        margin-top: 20px;
+        margin-right: 70px;
+    }
+
+    #banner-part .img {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #feature-part .rr {
+        background: #B0262D;
+
+
+    }
+
+    #feature-part .rd {
+        background: #B0262D;
+        height: 100px;
+        padding-left: 0;
+
+    }
+
+    .tittlered {
+        margin-top: 54px;
+    }
+
+    .tittlered h3 {
+        font-size: 37px;
+    }
+
+    .tittlered p {
+        width: auto;
+    }
+
+
+
+
+
+    #Assignment-part .box {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    #Assignment-part .box p {
+
+        width: auto;
+    }
+
+    #offer-part .wtt {
+        margin-top: 0;
+    }
+
+
+    .tittlewhite p {
+
+        width: auto;
+    }
+
+    #expert-part {
+        background: none;
+    }
+
+
+
+
+    #expert-part ul li {
+        margin-top: 10px;
+    }
+
+
+
+    #stat-part .stat p {
+      width: 335px;
+    }
+
+
+
+    #stat-part .stat img {
+        margin-top: 42px;
+    }
+
+    #help-part .img img {
+        display: none;
+    }
+
+    #help-part {
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+
+
+    #payment-part .right {
+        background: none;
+    }
+
+    #payment-part .left {
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    #payment-part .left .one {
+        position: relative;
+    }
+#payment-part {
+padding-left: 20px;
+}
+#payment-part .left .one img {
+	position: absolute;
+	top: 37px;
+	left: -36px;
+	width: 7%;
+	margin-top: 0;
+	margin-right: 0;
+}
+    #payment-part .left p {
+margin-left: 20px;
+width: 377px;
+    }
+
+
+    #payment-part .left .details {
+        margin-left: 0;
+width: 636px;
+        padding-right: 0;
+    }
+
+    #payment-part .left .img img {
+        height: 100%;
+        
+    }
+
+    #payment-part .left .two a {
+        padding: 10px 14px;
+    }
+
+
+
+    #choose-part .box .one {
+        padding: 0;
+        padding-bottom: 20px;
+        margin: 10px 0;
+        border-right: none;
+        border-bottom: 3px solid #CF232C;
+    }
+
+    #choose-part .box .lst {
+    }
+
+    #choose-part .box .one p {
+      width: auto;
+    }
+
+.red .one p {
+	font-size: 16px;
+}
+    #getin .black .touch h3 {
+        padding: 17px 43px;
+    top: 58%;
+
+    }
+
+    #getin::after {
+
+      top: 254px;
+    }
+
+
+
+    .red .one p {
+        margin-bottom: 81px;
+    }
+
+    #price-part .price .one h3 {
+font-size: 24px;
+padding: 10px 10px;
+    }
+
+    #price-part .price .one {
+        margin-bottom: 70px;
+    }
+
+    #price-part .price .one .button a {
+font-size: 14px;
+padding: 8px 10px;
+    }
+
+    #price-part {
+        margin-bottom: 40px;
+    }
+#price-part .price .one ul li {
+	font-size: 13px;
+}
+
+#order-part .order form .one input {
+width: 100%;
+}
+    
+    #order-part .order form .one select {
+	width: 100%;
+}
+    #order-part .order form .one {
+    }
+
+    #testimonial-part .testimonial p {
+	height: 235px;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #Placement-part .img {
+        display: none;
+    }
+
+
+
+    #Placement-part ul li h3 {
+        width: auto;
+    }
+
+
+    #Placement-part ul li p {
+        width: auto;
+    }
+
+    #Perfect-part .line {
+        display: none;
+    }
+
+
+    #Perfect-part .perfect {
+     margin: 0 83px;
+    }
+
+    #Perfect-part .perfect .bottom {
+        margin-top: 0;
+    }
+
+    #Perfect-part .perfect .one {
+        margin-top: 30px;
+    }
+
+
+    #Perfect-part .button {
+        margin-top: 57px;
+    }
+
+
+    #Blog-part .one {
+        margin: 0;
+    }
+
+
+
+    #Blog-part .one h3 {
+        margin-bottom: 34px;
+    }
+
+    #Blog-part .one p {
+        width: auto;
+        margin-right: 20px;
+    }
+
+
+
+
+    #testimonial-part .testimonial p {
+        width: auto;
+height: 160px;
+
+    }
+#testimonial-part .owl-prev {
+	position: absolute;
+top: 12%;
+left: -42px;
+}
+ #testimonial-part .owl-next {
+	position: absolute;
+top: 12%;
+right: -42px;
+}
+    
+    
+    #footer-part {
+     padding-left: 60px;
+      padding-right: 60px;
+    }
+
+    #footer-part .first {
+        margin-bottom: 38px;
+
+    }
+
+    #footer-part .one {
+        padding-bottom: 25px;
+    }
+
+    #footer-part .two .email ul li {
+        margin-bottom: 20px;
+    }
+
+    #footer-part .two {
+        padding-bottom: 26px;
+    }
+
+
+
+#testimonial-part button span {
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:992px) and (max-width:1199px) {
+
+
+    .menu {
+        padding-top: 10px;
+        background: #fff;
+    }
+
+    .menu .navbar-brand {
+
+        width: 193px;
+    }
+
+    .menu .navbar-brand img {
+        filter: none;
+    }
+
+
+    .menu button span {
+        height: auto;
+    }
+
+    .menu button span i {
+        color: rgb(46, 163, 242);
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+
+    .menu nav ul li a {
+        color: #000;
+        z-index: 999;
+        transition: .4s;
+
+
+    }
+
+
+    .menu nav ul li {
+
+        transition: .4s;
+        padding-left: 20px;
+
+    }
+
+
+
+    .menu nav ul li:hover {
+        background: #F9F9F9;
+        color: #444;
+
+    }
+
+    .menu nav ul li:hover a {
+        color: #444;
+
+    }
+
+    .menu nav ul li ul {
+        background: #fff;
+        z-index: 9999;
+
+
+
+    }
+
+
+    #banner-part {
+        padding-left: 10px;
+    }
+
+    #banner-part .left h2 {
+font-size: 24px;
+        width: auto;
+    }
+
+
+    #banner-part .left p {
+        width: auto;
+    }
+
+    #banner-part .left a {
+        margin-bottom: 18px;
+        font-size: 16px;
+    }
+
+
+    #banner-part .left ul {
+        margin-top: 20px;
+ margin-right: 37px;
+    }
+
+    #banner-part .img {
+        margin-top: 20px;
+        text-align: center;
+    }
+    #banner-part .img img{
+width: 100%;
+    }
+
+    #feature-part .rr {
+        background: #B0262D;
+
+
+    }
+
+    #feature-part .rd {
+        background: #B0262D;
+        height: 100px;
+        padding-left: 0;
+
+    }
+
+    .tittlered {
+        margin-top: 54px;
+    }
+
+    .tittlered h3 {
+        font-size: 37px;
+    }
+
+    .tittlered p {
+        width: auto;
+    }
+
+
+
+
+
+    #Assignment-part .box {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    #Assignment-part .box p {
+
+        width: auto;
+    }
+    .tittlewhite p {
+
+        width: auto;
+    }
+
+
+    #expert-part ul li {
+        margin-top: 10px;
+    }
+    #stat-part .stat img {
+        margin-top: 42px;
+    }
+
+    #help-part .img img {
+        width: 100%;
+    }
+
+    #help-part {
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+
+#help-part .img {
+	text-align: center;
+	margin-right: 34px;
+}
+    
+ #payment-part .left .one {
+	 margin-left: 0; 
+	margin-bottom: 25px;
+}
+    
+    
+#choose-part .box .one p {
+	 width: auto; 
+
+}
+    
+
+    #price-part .price .one h3 {
+font-size: 24px;
+padding: 10px 10px;
+    }
+
+    #price-part .price .one {
+        margin-bottom: 70px;
+    }
+
+    #price-part .price .one .button a {
+font-size: 14px;
+padding: 8px 10px;
+    }
+
+    #price-part {
+        margin-bottom: 40px;
+    }
+#price-part .price .one ul li {
+	font-size: 13px;
+}
+
+#order-part .order form .one input {
+width: 100%;
+}
+    
+    #order-part .order form .one select {
+	width: 100%;
+}
+    #order-part .order form .one {
+    }
+
+    #testimonial-part .testimonial p {
+	height: 235px;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #Placement-part .img img{
+width: 100%;
+    }
+
+
+
+    #Placement-part ul li h3 {
+        width: auto;
+    }
+
+
+    #Placement-part ul li p {
+        width: auto;
+    }
+    
+    #Blog-part .one {
+        margin: 0;
+    }
+
+
+
+    #Blog-part .one h3 {
+        margin-bottom: 34px;
+        padding-right: 10px;
+    }
+
+    #Blog-part .one p {
+        width: auto;
+        margin-right: 20px;
+    }
+
+#testimonial-part .testimonial {
+	margin: 0 25px;
+}
+
+
+    #testimonial-part .testimonial p {
+        width: auto;
+height: 160px;
+
+    }
+#testimonial-part .owl-prev {
+	position: absolute;
+top: 12%;
+left: -29px;
+}
+ #testimonial-part .owl-next {
+	position: absolute;
+top: 12%;
+right: -29px;
+}
+    
+    
+    #footer-part {
+     padding-left: 60px;
+      padding-right: 60px;
+    }
+
+    #footer-part .first {
+        margin-bottom: 38px;
+
+    }
+
+    #footer-part .one {
+        padding-bottom: 25px;
+    }
+
+    #footer-part .two .email ul li {
+        margin-bottom: 20px;
+    }
+
+    #footer-part .two {
+        padding-bottom: 26px;
+    }
+
+
+
+#testimonial-part button span {
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

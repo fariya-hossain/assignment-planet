@@ -1,0 +1,1635 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding-right: 0;
+}
+
+
+
+.fixed {
+    position: fixed !important;
+    top: 0;
+    background: #fff !important;
+    animation: menu .5s;
+    width: 100%;
+    z-index: 99999999;
+
+}
+
+.fixed ul li a {
+    color: #222 !important;
+
+
+
+}
+
+
+
+@keyframes menu {
+    from {
+        top: -100px;
+    }
+
+    to {
+        top: 0px;
+    }
+}
+
+
+.fixed nav a img {
+	 filter: none !important; 
+}
+
+.fixed nav ul li .active {
+    color: rgb(224, 43, 32) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*======header css start=====*/
+#header-part {
+    padding-top: 10px;
+    background: #010C5B;
+    padding-bottom: 5px;
+}
+
+#header-part .right {
+    text-align: right;
+}
+
+#header-part .right ul li {
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+#header-part .right ul li a {
+    display: flex;
+    color: #fff;
+    transition: .4s;
+}
+
+#header-part .right ul li a:hover {
+    color: rgba(255, 255, 255, .7);
+
+}
+
+
+#header-part .right ul li a p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+#header-part .right ul li a i {
+    padding: 6px;
+    border: 1px solid #fff;
+    font-size: 13px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
+#header-part .left {
+    float: right;
+    margin-top: -6px;
+}
+
+#header-part .blink {
+    width: 371px;
+    height: auto;
+
+    padding: 5px;
+    text-align: center;
+    line-height: 15px;
+}
+
+#header-part span {
+    background-color: #F40003;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .7;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*======header css end=====*/
+
+
+
+
+
+/*======menu css start=====*/
+.menu {
+    background: #010C5B;
+}
+
+.menu nav a img {
+    filter: brightness(0) invert(1);
+    width: 70%;
+}
+
+.menu nav ul {}
+
+.menu nav .menuitem {
+    flex-grow: 0;
+}
+
+.menu nav ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    transition: .4s;
+    cursor: pointer;
+
+}
+
+.navbar {
+    padding-top: 0;
+}
+
+.menu nav ul li a:hover {
+    color: rgba(255, 255, 255, .7);
+
+}
+
+.menu nav ul li .active {
+    color: rgb(224, 43, 32);
+}
+
+.menu nav ul li .active:hover {
+    color: rgba(224, 43, 32, .7);
+}
+
+.menu nav ul li ul {
+    position: absolute;
+    background: #fff;
+    border-top: 2px solid #EE0006;
+    width: 230px;
+    padding: 20px 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .6s;
+}
+
+.menu nav ul li {
+    position: relative;
+    margin-left: 10px;
+}
+
+.menu nav ul li ul li a {
+    color: #000;
+}
+
+.menu nav ul li ul li {
+    margin-bottom: 8px;
+    transition: .4s;
+
+}
+
+.menu nav ul li:hover ul {
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu nav ul li ul li a:hover {
+    background: rgba(0, 0, 0, 0.03);
+    color: #000;
+    opacity: 0.7;
+}
+
+
+
+/*======menu css end=====*/
+
+/*======banner css start=====*/
+
+#banner-part {
+    background: #010C5B;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+#banner-part .left h2 {
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    width: 503px;
+    margin-bottom: 30px;
+}
+
+
+#banner-part .left h2 .ami {
+    display: inline-block;
+    color: #EE0000;
+}
+
+.typed-cursor {
+    color: #EE0000;
+}
+
+#banner-part .left p {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    width: 536px;
+    margin-bottom: 30px;
+}
+
+#banner-part .left a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 14px;
+    font-size: 17px;
+    background-color: rgba(207, 35, 44, 0.8);
+    margin-right: 17px;
+    transition: .4s;
+    margin-bottom: 45px;
+}
+
+#banner-part .left a i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+#banner-part .left a:hover {
+    background: rgb(46, 163, 242);
+}
+
+#banner-part .left ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 14px;
+}
+
+#banner-part .left ul li i {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+
+
+#banner-part .left ul {
+    display: inline-block;
+    margin-right: 85px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======banner css end=====*/
+
+/*======feature css start=====*/
+#feature-part {
+    background: #2EA3F2;
+
+}
+
+#feature-part .one {
+    display: flex;
+    padding: 20px 0;
+
+}
+
+#feature-part .one .img img {
+    width: 75%;
+
+}
+
+
+
+
+
+#feature-part .rd {
+    background: #B0262D;
+    height: 114px;
+    padding-left: 20px;
+}
+
+
+
+#feature-part h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    line-height: 25px;
+
+}
+
+#feature-part p {
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 14px;
+    margin-top: 10px;
+
+}
+
+/*======feature css end=====*/
+
+
+/*======Assignment css start=====*/
+
+
+
+
+.tittlered {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tittlered h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(207, 35, 44) !important;
+    margin-bottom: 10px
+}
+
+.tittlered p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    line-height: 25px;
+    width: 1140px;
+
+}
+
+
+#Assignment-part .box h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    line-height: 16px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#Assignment-part .box p {
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    line-height: 24px;
+    font-weight: 500;
+    width: 199px;
+
+}
+
+#Assignment-part .box {
+    margin-bottom: 70px;
+}
+
+/*======Assignment css end=====*/
+
+/*======offer css start=====*/
+
+
+#offer-part {
+    background: #CF232C;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+.tittlewhite {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.tittlewhite h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.tittlewhite p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    line-height: 25px;
+    width: 507px;
+    margin-bottom: 15px;
+
+}
+
+
+
+
+
+
+#offer-part ul li {
+    background: #fff;
+    font-size: 18px;
+    color: rgb(207, 35, 44);
+    line-height: 25px;
+    padding: 8px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+#offer-part ul li img {
+    width: 8%;
+    margin-right: 10px;
+}
+
+
+
+
+/*======offer css end=====*/
+
+
+
+
+/*======expert css start=====*/
+#expert-part {
+    background: url(../image/expert.png)no-repeat right;
+    background-size: contain;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.tittleblack {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.tittleblack h3 {
+
+    width: 408px;
+    line-height: 43px font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: rgb(51, 51, 51);
+
+
+}
+
+
+.tittleblack p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(51, 51, 51);
+    line-height: 25px;
+    margin-bottom: 15px;
+
+}
+
+
+#expert-part ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+
+
+/*======expert css end=====*/
+
+
+
+/*======stat css start=====*/
+
+#stat-part {
+    background: #CF232C;
+}
+
+#stat-part .tittlewhite {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.tittlewhite h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#stat-part .stat {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+
+#stat-part .stat .img img {
+    width: 31%;
+}
+
+#stat-part .stat p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+
+}
+
+#stat-part .stat h2 {
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    line-height: 60px;
+    font-weight: 500;
+
+}
+
+
+
+
+
+
+
+
+/*======stat css end=====*/
+
+
+
+
+/*======help css start=====*/
+
+#help-part {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#help-part .img {
+    text-align: center;
+    margin-right: 80px;
+}
+
+#help-part .img img {
+    width: 80%;
+}
+
+.tittleblack {
+    margin-top: 0;
+
+}
+
+.tittleblack h3 {
+
+    width: auto;
+}
+
+
+#help-part ul {
+    margin-bottom: 25px;
+
+}
+
+/*======help css end=====*/
+
+/*======payment css start=====*/
+#payment-part {
+    background: #CF232C;
+}
+
+#payment-part .pay {
+    display: flex;
+}
+
+#payment-part .left {
+    width: 55%;
+    margin-left: 50px;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+#payment-part .left .one img {
+    filter: brightness(0) invert(1);
+    width: 5%;
+    margin-top: -32px;
+    margin-right: 15px;
+
+}
+
+
+#payment-part .left .one {
+    margin-left: 35px;
+    margin-bottom: 25px;
+}
+
+#payment-part .left p {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+
+}
+
+#payment-part .left .one p span {
+    display: block;
+
+}
+
+#payment-part .left .details {
+
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    margin-top: 0;
+    width: auto;
+    margin-bottom: 30px;
+    padding-right: 73px;
+}
+
+#payment-part .left .img {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#payment-part .left .two {
+    text-align: center;
+}
+
+#payment-part .left .two a {
+    padding: 10px 80px;
+    background: #9c0810;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+
+#payment-part .left .two a i {
+    margin-left: 10px;
+}
+
+
+
+
+
+#payment-part .right {
+    width: 45%;
+    background: url(../image/payment.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+
+/*======payment css end=====*/
+
+
+
+/*======choose css start=====*/
+
+#choose-part .choose {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#choose-part .box {
+
+    margin-bottom: 80px;
+}
+
+#choose-part .choose p {
+
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 40px;
+
+}
+
+
+#choose-part .box .one {
+    text-align: center;
+    padding-bottom: 40px;
+    padding: 20px;
+
+
+    margin-right: -23px;
+}
+
+#choose-part .box .one .img {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border: 3px solid #CF232C;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#choose-part .box .one .img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+#choose-part .box .one h4 {
+    color: #CF232C;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+#choose-part .box .one p {
+    color: #000;
+    font-weight: 400;
+    font-size: 16x;
+    font-family: 'Open Sans', sans-serif;
+    width: 332px;
+    margin-bottom: 10px;
+
+}
+
+
+#choose-part .box .on {
+    border-right: 3px solid #CF232C;
+}
+
+#choose-part .box .tn {
+    border-bottom: 3px solid #CF232C;
+}
+
+/*======choose css end=====*/
+
+
+/*======get in touch  css start=====*/
+
+
+
+#getin {
+    text-align: center;
+    color: #fff;
+    background: #333333;
+    /*    border-top: 3px solid #20B4D2;*/
+    position: relative;
+}
+
+#getin::after {
+    width: 100%;
+    height: 3px;
+    background: #20B4D2;
+    position: absolute;
+    top: 212px;
+    left: 0;
+    content: "";
+    z-index: 999;
+}
+
+
+#getin .black {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+#getin .black h3 {
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+#getin .black p {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 0;
+
+
+}
+
+
+#getin .black .touch h3 {
+
+    padding: 6px 122px;
+    background: #20B4D2;
+    display: inline-block;
+    border-radius: 10px;
+    z-index: 9999;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#getin .black .last {
+    margin-top: 130px;
+}
+
+
+
+
+
+
+.red {
+    background: #CF232C;
+    text-align: center;
+
+    border-top: 3px solid rgb(32, 180, 210);
+}
+
+.red .one {
+    color: #fff;
+}
+
+.red .one .icon {
+    position: relative;
+
+}
+
+.red .one .icon i {
+    font-size: 40px;
+    color: rgb(32, 180, 210);
+    background: #fff;
+    padding: 25px;
+    border-radius: 50%;
+    border: 3px solid rgb(32, 180, 210);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -75px;
+
+}
+
+
+.red .one h5 {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 72px;
+}
+
+.red .one p {
+
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 6px;
+    margin-bottom: 40px;
+}
+
+
+
+/*======get in touch  css end=====*/
+
+
+/*======price css end=====*/
+#price-part {
+    margin-bottom: 130px;
+}
+
+#price-part .price .one {
+    border: 1px solid #CF232C;
+    text-align: center;
+    margin-top: 30px;
+    transition: .5s;
+}
+
+#price-part .price .one h3 {
+
+    font-size: 30px;
+    color: #fff;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    background: #CF232C;
+    display: inline-block;
+    padding: 20px 50px;
+    border-radius: 7px;
+    margin-top: -48px;
+}
+
+
+#price-part .price .one .circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #CF232C;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+#price-part .price .one .circle sup {
+    font-size: 20px;
+    margin-right: -8px;
+}
+
+#price-part .price .one .circle p span {
+    font-size: 16px;
+    font-weight: 601;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    margin-top: -10px;
+    margin-left: 25px;
+}
+
+#price-part .price .one .circle p {
+    padding-top: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    transition: .4s;
+}
+
+
+#price-part .price .one ul {
+
+    margin-bottom: 41px;
+}
+
+
+
+#price-part .price .one ul li {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+}
+
+#price-part .price .one .button {
+    position: relative;
+}
+
+#price-part .price .one .button a {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 20px;
+    background: #CF232C;
+    border-radius: 4px;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 12px 18px -6px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .4s;
+    letter-spacing: .5px;
+}
+
+#price-part .price .one:hover {
+    margin-top: -4px;
+}
+
+#price-part .price .one:hover p {
+    font-size: 45px;
+    transition: all 0.3s ease 0ms;
+}
+
+#price-part .price .one a:hover {
+    padding: 10px 25px;
+    letter-spacing: 1px;
+}
+
+
+#price-part .price .on {
+    background: #CF232C;
+    color: #fff;
+}
+
+#price-part .price .on h3 {
+    background: #fff;
+    color: #CF232C;
+    border: 1px solid #CF232C;
+}
+
+
+#price-part .price .on .circle {
+    background: #fff;
+    color: #CF232C;
+}
+
+#price-part .price .on .button a {
+    background: #fff;
+    color: #CF232C;
+}
+
+
+
+#price-part .tittlered p {
+    font-weight: 600;
+    width: auto;
+    font-size: 17px;
+}
+
+
+/*======price  css end=====*/
+
+
+
+/*====== order now  css start=====*/
+
+
+#order-part {
+    background: #20B4D2;
+    padding-top: 100px;
+    padding-bottom: 60px;
+
+}
+
+
+
+#order-part .order h3 {
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 30px;
+
+
+
+}
+
+
+#order-part .order form .one input {
+    padding: 10px 10px 10px 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+#order-part .order form .one select {
+    padding-top: 10px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    padding-right: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    box-sizing: border-box;
+    width: 258px;
+}
+/*
+
+#order-part .order form .one img {
+    margin-bottom: -68px;
+    margin-left: 7px;
+
+}
+*/
+
+#order-part .order form .one img {
+	margin-bottom: -68px;
+	margin-left: 7px;
+	position: absolute;
+	top: 11px;
+	left: 0;
+}
+
+#order-part .order form .one {
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+#order-part .order form .button button {
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 50px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+
+
+
+}
+
+#order-part .order form .button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/*====== order now  css end=====*/
+
+/*====== Placement  css end=====*/
+
+#Placement-part {
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+
+#Placement-part ul li h3 {
+    color: #CF232C;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    width: 440px;
+}
+
+
+
+#Placement-part ul li p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    width: 523px;
+
+}
+
+
+/*====== Placement  css end=====*/
+
+/*====== Perfect Assignment  css start=====*/
+#Perfect-part {
+    background: #000;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+#Perfect-part h3 {
+    font-weight: 700;
+    font-size: 40px;
+
+
+}
+
+#Perfect-part .perfect {
+    z-index: 99999;
+    position: relative;
+
+}
+
+
+
+#Perfect-part p {
+
+    font-weight: 300;
+    font-size: 18px;
+
+    margin-top: 7px;
+    margin-bottom: 30px;
+
+}
+
+#Perfect-part .perfect .one {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 1.5em;
+    background-color: rgb(221, 57, 56);
+    border-radius: 400px;
+    overflow: hidden;
+    border: 5px solid rgb(150, 0, 8);
+    height: 229.86px;
+    padding: 22px;
+
+    width: 229.86px;
+}
+
+#Perfect-part .perfect h5 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 184px;
+}
+
+
+
+#Perfect-part .perfect p {
+    font-weight: 300;
+    font-size: 13px;
+}
+#Perfect-part .perfect .bn {
+z-index: 99999;
+}
+
+#Perfect-part .perfect .bottom {
+    margin-top: 114.93px;
+}
+
+
+#Perfect-part .line {
+position: absolute;
+top: 8px;
+left: -55px;
+    z-index: 999;
+
+}
+
+
+
+
+#Perfect-part .button {
+    text-align: center;
+    margin-top: -50px;
+}
+
+#Perfect-part .button a {
+    padding: 10px 40px;
+    background: #9c0810;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+
+#Perfect-part .button a i {
+    margin-left: 10px;
+}
+
+
+
+
+/*====== Perfect Assignment  css end=====*/
+
+
+/*====== Blog css end=====*/
+
+
+
+#Blog-part {
+
+    margin-bottom: 80px;
+}
+
+#Blog-part .pp {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
+#Blog-part .one .img img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+#Blog-part .one {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 20px;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+
+#Blog-part .one h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(207, 35, 44);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    height: 45px;
+}
+
+
+#Blog-part .one p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    margin-left: 20px;
+    width: 271px;
+    margin-bottom: 5px;
+}
+
+
+
+#Blog-part .one a {
+    font-weight: 700;
+    color: rgb(207, 35, 44) !important;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+
+
+/*====== Blog css end=====*/
+
+
+/*====== testimonial css end=====*/
+
+#testimonial-part .tittlered .pp {
+
+    font-weight: 600;
+    font-size: 18px;
+
+    margin-top: 7px;
+    margin-bottom: 30px;
+
+}
+
+
+#testimonial-part {
+    margin-bottom: 100px;
+}
+
+
+#testimonial-part .testimonial {
+    padding: 30px 20px;
+    background: #fff;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid rgb(214, 214, 214);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 14px -6px;
+
+    margin: 0 6px;
+
+}
+
+#testimonial-part .testimonial .icon i {
+    font-size: 25px;
+    color: #FFB900;
+
+}
+
+
+#testimonial-part .testimonial p {
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.7em;
+    font-weight: 500;
+    width: 300px;
+    height: 160px;
+    margin-bottom: 20px;
+}
+
+
+#testimonial-part .testimonial h2 {
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 700;
+    font-size: 21px;
+    color: rgb(207, 35, 44);
+    padding: 0px 10px 10px 0px;
+
+
+
+}
+
+#testimonial-part button span {
+
+    font-size: 130px;
+    color: rgb(207, 35, 44);
+
+
+}
+
+
+#testimonial-part .owl-theme .owl-nav [class*="owl-"]:hover {
+
+    background: none;
+    color: rgb(207, 35, 44);
+
+
+}
+
+#testimonial-part .owl-prev {
+
+
+    position: absolute;
+    top: 10%;
+    left: -55px;
+
+
+}
+
+#testimonial-part .owl-next {
+
+
+    position: absolute;
+    top: 10%;
+    right: -55px;
+
+
+}
+
+
+/*====== testimonial css end=====*/
+
+
+
+
+/*====== footer css end=====*/
+
+#footer-part {
+    background: #000;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#footer-part .one {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #fff;
+}
+
+#footer-part .one h5 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+
+
+}
+
+#footer-part .one ul li {
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding-left: 15px;
+
+    position: relative;
+}
+
+#footer-part .one ul li a {
+    color: #fff;
+}
+
+#footer-part .one ul li::after {
+    position: absolute;
+    top: 8px;
+    left: 1px;
+    background: #CF232C;
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    content: "";
+}
+
+
+#footer-part .two {
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #fff;
+}
+
+#footer-part .two .img p {
+    font-size: 11px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#footer-part .two .email ul li {
+    font-size: 14px;
+    line-height: 30px;
+
+}
+
+#footer-part .two .email ul li i {
+    margin-right: 10px;
+}
+
+
+
+#footer-part .two .paym img {
+    width: 100%;
+}
+
+
+
+
+#footer-part .last p {
+    font-family: 'Open Sans', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 300;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*====== footer css end=====*/
